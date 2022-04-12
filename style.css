@@ -152,20 +152,18 @@ th {
     .col-1 {
         margin: 0px 15px 0px 15px;
     }
-
-    /* --- CONTENT --- */
-
-    .main-content article {
-        padding: 0px 15px 15px 15px;
-    }
-    
-    .main-content article:first-of-type {
-        padding-top: 15px;
-    }
 }
 
-@media only screen and (max-width: 768px) {    
+@media only screen and (max-width: 768px) {
     header.page-heading {
         border-bottom: 1px solid var(--m-gray-300);
+    }
+
+    /* ----- CONTENT ----- */
+
+    .main-content {
+        border: unset;
+        border-radius: unset;
+        padding: unset;
     }
 }
